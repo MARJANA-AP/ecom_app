@@ -91,7 +91,7 @@ class _EHomePageState extends State<EHomePage> {
                               prefixIcon: const Icon(
                                 Icons.search,
                                 color: Colors.black54,
-                                size: 35,
+                                size: 30,
                               ),
                               hintText: "Search",
                               hintStyle: const TextStyle(
@@ -150,7 +150,7 @@ class _EHomePageState extends State<EHomePage> {
                           ),
                         ),
                         const SizedBox(
-                          width: 140,
+                          width: 100,
                         ),
                         InkWell(
                           onTap: () {

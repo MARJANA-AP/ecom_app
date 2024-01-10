@@ -35,6 +35,7 @@ class _CartpageState extends State<Cartpage> {
     final addcart = Provider.of<AddCart>(context);
 
     return Scaffold(
+      appBar: AppBar(),
       body: SizedBox(
         height: double.infinity,
         width: double.infinity,

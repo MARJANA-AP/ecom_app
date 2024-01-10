@@ -72,14 +72,15 @@ class _AllProductsState extends State<AllProducts> {
                                 height: 150,
                                 width: 120,
                                 decoration: BoxDecoration(
-                                    borderRadius: const BorderRadius.all(
-                                        Radius.circular(10)),
-                                    image: DecorationImage(
-                                      fit: BoxFit.contain,
-                                      image: NetworkImage(
-                                          pics.imageurl![index].image),
-                                    ),
-                                    color: Colors.white),
+                                  borderRadius: const BorderRadius.all(
+                                      Radius.circular(10)),
+                                  image: DecorationImage(
+                                    fit: BoxFit.contain,
+                                    image: NetworkImage(
+                                        pics.imageurl![index].image),
+                                  ),
+                                  color: Colors.white,
+                                ),
                               ),
                             ),
                           ),
