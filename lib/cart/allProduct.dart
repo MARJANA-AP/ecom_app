@@ -26,7 +26,9 @@ class _AllProductsState extends State<AllProducts> {
 
     return Scaffold(
       backgroundColor: Colors.grey.shade200,
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       body: pics.imageurl == true
           ? const Center(child: CircularProgressIndicator())
           : SizedBox(

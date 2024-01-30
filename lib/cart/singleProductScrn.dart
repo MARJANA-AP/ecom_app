@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:ecom_app/cart/cartProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -34,7 +35,9 @@ class _CartpageState extends State<Cartpage> {
     final addcart = Provider.of<AddCart>(context);
 
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       body: SizedBox(
         height: double.infinity,
         width: double.infinity,
@@ -129,7 +132,7 @@ class _CartpageState extends State<Cartpage> {
                           ? InkWell(
                               onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (context) => CartList(),
+                                  builder: (context) => const CartList(),
                                 ));
                                 // if (addcart.cartitem.contains(widget.id)) {
                                 //   addcart.removefromcart(widget.id);
@@ -146,7 +149,7 @@ class _CartpageState extends State<Cartpage> {
                                     color:
                                         const Color.fromARGB(255, 24, 11, 16),
                                     borderRadius: BorderRadius.circular(10)),
-                                child: Center(
+                                child: const Center(
                                   child: Center(
                                       child: Text(
                                     "go to"
@@ -178,7 +181,7 @@ class _CartpageState extends State<Cartpage> {
                                       color:
                                           const Color.fromARGB(255, 24, 11, 16),
                                       borderRadius: BorderRadius.circular(10)),
-                                  child: Center(
+                                  child: const Center(
                                     child: Center(
                                         child: Text(
                                       "add to",

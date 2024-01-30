@@ -1,7 +1,7 @@
-import 'dart:ffi';
+// import 'dart:ffi';
 
 import 'package:ecom_app/cart/cartlist.dart';
-import 'package:ecom_app/cart/singleProductScrn.dart';
+// import 'package:ecom_app/cart/singleProductScrn.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
@@ -31,20 +31,21 @@ class PerNavBarState extends State<PerNavBar> {
   {
     return [
       PersistentBottomNavBarItem(
-          icon: Icon(CupertinoIcons.home),
+          icon: const Icon(CupertinoIcons.home),
           activeColorPrimary: CupertinoColors.darkBackgroundGray,
           inactiveColorPrimary: CupertinoColors.black),
       PersistentBottomNavBarItem(
-          icon: Icon(CupertinoIcons.shopping_cart),
+          icon: const Icon(CupertinoIcons.shopping_cart),
           activeColorPrimary: CupertinoColors.darkBackgroundGray,
           inactiveColorPrimary: CupertinoColors.black),
       PersistentBottomNavBarItem(
-          icon: Icon(CupertinoIcons.profile_circled),
+          icon: const Icon(CupertinoIcons.profile_circled),
           activeColorPrimary: CupertinoColors.darkBackgroundGray,
           inactiveColorPrimary: CupertinoColors.black),
     ];
   }
 
+  @override
   Widget build(BuildContext context) {
     //prop in presist no need of scaffold
 
@@ -67,11 +68,11 @@ class PerNavBarState extends State<PerNavBar> {
         borderRadius: BorderRadius.circular(5),
         colorBehindNavBar: Colors.white,
       ),
-      itemAnimationProperties: ItemAnimationProperties(
+      itemAnimationProperties: const ItemAnimationProperties(
         duration: Duration(milliseconds: 200),
         curve: Curves.ease,
       ),
-      screenTransitionAnimation: ScreenTransitionAnimation(
+      screenTransitionAnimation: const ScreenTransitionAnimation(
         animateTabTransition: true,
         curve: Curves.ease,
         duration: Duration(milliseconds: 200),

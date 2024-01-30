@@ -51,15 +51,6 @@ class _EHomePageState extends State<EHomePage> {
       "assets/img9.jpg",
       "assets/img10.jpg",
     ];
-    List<Map<String, dynamic>> drs = [
-      {"dr": "Men", "rvs": 754, "price": 400},
-      {"dr": "Woman", "rvs": 147, "price": 300},
-      {"dr": "Kids", "rvs": 243, "price": 350},
-      {"dr": "Shirts", "rvs": 477, "price": 500},
-      {"dr": "Watch", "rvs": 877, "price": 690},
-      {"dr": "Watch", "rvs": 877, "price": 730},
-      {"dr": "Shoes", "rvs": 366, "price": 430},
-    ];
 
     final pics = Provider.of<DressImgPro>(context, listen: true);
 
