@@ -13,11 +13,11 @@ class _MyPtofileState extends State<MyPtofile> {
     return Scaffold(
         appBar: AppBar(
           automaticallyImplyLeading: false,
-          backgroundColor: Color.fromARGB(255, 180, 203, 203),
-          leading: Image(
+          backgroundColor: const Color.fromARGB(255, 180, 203, 203),
+          leading: const Image(
             image: AssetImage("assets/logo.png"),
           ),
-          actions: [
+          actions: const [
             Icon(
               Icons.alarm,
               size: 30,
@@ -41,8 +41,8 @@ class _MyPtofileState extends State<MyPtofile> {
               Container(
                 height: 100,
                 width: double.infinity,
-                color: Color.fromARGB(255, 181, 212, 212),
-                child: Row(
+                color: const Color.fromARGB(255, 181, 212, 212),
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Row(
@@ -53,7 +53,7 @@ class _MyPtofileState extends State<MyPtofile> {
                               fontSize: 25, fontWeight: FontWeight.w300),
                         ),
                         Text(
-                          "Nashwa",
+                          "Marjana",
                           style: TextStyle(
                               fontSize: 25, fontWeight: FontWeight.w500),
                         ),
