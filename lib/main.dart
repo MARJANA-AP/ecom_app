@@ -1,15 +1,9 @@
-import 'package:ecom_app/cart/allProduct.dart';
-import 'package:ecom_app/cart/singleProductScrn.dart';
 import 'package:ecom_app/provider/apiprovider.dart';
-import 'package:ecom_app/screens/bottom_navbar.dart';
 import 'package:ecom_app/screens/home.dart';
-import 'package:ecom_app/screens/profile.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:provider/provider.dart';
-
 import 'cart/cartProvider.dart';
 
 void main() {

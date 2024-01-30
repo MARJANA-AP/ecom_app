@@ -17,9 +17,6 @@ class PerNavBar extends StatefulWidget {
 }
 
 class PerNavBarState extends State<PerNavBar> {
-  final PersistentTabController _controller = PersistentTabController(
-      initialIndex: 0); //Declaaring controller for bottom nav  @override
-
   List<Widget> _buildScreens() {
     return [
       const EHomePage(),

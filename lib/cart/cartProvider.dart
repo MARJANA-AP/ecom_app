@@ -1,4 +1,3 @@
-import 'package:ecom_app/cart/allProduct.dart';
 import 'package:ecom_app/provider/apiprovider.dart';
 import 'package:flutter/cupertino.dart';
 
